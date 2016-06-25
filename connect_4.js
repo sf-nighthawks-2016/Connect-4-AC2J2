@@ -17,6 +17,7 @@ function newGame(){
         }
       }
   currentPlayer = "red";
+  $('.game_table').css("background-color", "blue");
 }
 
 
