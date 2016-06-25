@@ -1,18 +1,19 @@
 var gameBoard;
 var currentPlayer;
 
-// $(document).ready(function() {
-//   newGame();
-// });
+$(document).ready(function() {
+  newGame();
+});
 
 function newGame(){
   rowMax = 6;
   colMax = 7;
+  gameBoard = [];
   for (var row = 0; row < rowMax; row++) {
-        var gameBoard = [];
-        for(var col = 0; col < colMax; col++) {
-            gameBoard[row][col] = 0;
-            console.log(newTimes);
+    gameBoard[row] = [];
+    for(var col = 0; col < colMax; col++) {
+        gameBoard[row][col] = 0;
+
         }
       }
   currentPlayer = "red";
