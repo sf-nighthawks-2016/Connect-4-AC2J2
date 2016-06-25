@@ -1,0 +1,19 @@
+.circle {
+  margin: 5px;
+   width:40px;
+   height:40px;
+  border-radius:20px;
+  background: lightblue;
+}
+
+#a, #b, #c, #d, #e, #f, #g{
+  float: left;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: black;
+}
