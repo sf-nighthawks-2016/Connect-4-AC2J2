@@ -19,6 +19,13 @@ $(document).ready(function(){
         $(column[i-1]).addClass(player)
         break;
       }
+    //   if ($(column[i]).hasClass('red') || i ==6){
+    //     $(column[i-1]).addClass(player1)
+    //   } else if($(column[i]).hasClass('black') || i ==6){
+    //     $(column[i-1]).addClass(player2)
+    //   } else {
+    //     break
+    //   }
     }
     turn ++;
   })
