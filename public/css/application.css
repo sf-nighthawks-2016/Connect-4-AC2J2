@@ -1,0 +1,51 @@
+.column {
+  display: inline-block;
+  z-index: 1;
+}
+.board {
+  z-index: 1;
+}
+
+.column:first-child {
+  z-index: 1;
+}
+
+.piece {
+  z-index: -1;
+  height: 57px;
+  position: fixed;
+  /*margin-top: 0px;*/
+  display: inline-block;
+}
+
+#red2 {
+  left: 60px;
+}
+
+#red3 {
+  left: 125px;
+}
+
+#red4 {
+  left: 190px;
+}
+
+#red5 {
+  left: 250px;
+}
+
+#red6 {
+  left: 310px;
+}
+
+#red7 {
+  left: 370px;
+}
+
+.hidden {
+  display: none;
+}
+
+#test {
+  display: inline-block;
+}
